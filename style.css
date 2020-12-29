@@ -1,0 +1,20 @@
+/*Каркас сайта*/
+       .layer{
+           overflow-x: auto;
+           width: 300px;
+           border: solid 1px black;
+           white-space: nowrap; 
+         }
+         .d3 span {
+
+          background: #FAF0E6;
+          padding: 0 15px;
+          margin-left: 20px;
+         }
+       body {
+	      background-color:#BC8F8F;
+       }
+        table {width: 100%; border-collapse: separate;  background:#FAF0E6;}
+        table thead tr {color: #000000; font-weight: bold;}
+        table thead tr td {border-radius: 4px 4px 0 0; background: #2e82c3;}
+        table tbody tr td:hover {background: #C0C0C0; transition-duration: 0.2s;}  
